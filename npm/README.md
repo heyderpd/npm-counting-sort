@@ -1,6 +1,6 @@
 # c-sort : simple and fast counting-sort
 
-## All process have a avg of 1 mileseconds!!!
+## All process have a avg of 0~1 mileseconds!!!
 ## Using a array of 3.000 itens all process have a avg 3 mileseconds !!!
 
 ## I will help if you have any difficulty =)

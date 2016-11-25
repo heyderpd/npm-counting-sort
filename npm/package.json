@@ -1,8 +1,8 @@
 {
   "license": "MIT",
   "name": "c-sort",
-  "version": "1.0.1",
-  "description": "simple and fast heap-sort",
+  "version": "1.0.2",
+  "description": "simple and fast counting-sort",
   "main": "index.js",
   "scripts": {},
   "keywords": [

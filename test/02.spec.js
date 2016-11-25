@@ -2,8 +2,8 @@
 
 const assert = require('assert')
 
-// const heapSort = require('../src/main')
-const heapSort = require('../npm/index')
+// const countingSort = require('../src/main')
+const countingSort = require('../npm/index')
 
 const tendentious = require('random-tendentious')
 const randTo100 = () => (Math.floor( tendentious({l: [10, 100]})() ))
@@ -18,7 +18,7 @@ const getArray = (lim = 1) => {
 const tryHeap = lim => {
   let array = getArray(lim)
   console.log('==> itens:', array.length)
-  heapSort(array, true)
+  countingSort(array, true)
 }
 
 // let trys = 0, lim = 10, step = 150
